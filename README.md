@@ -3,7 +3,7 @@
     Description: Parses 'Contributions by Individuals' files found at: 
     	http://classic.fec.gov/finance/disclosure/ftpdet.shtml
     Created: October 26, 2017
-    Author Name :: E-Mail: Michael Corso :: mc5262@nyu.edu
+    Author Name - E-Mail: Michael Corso - mc5262@nyu.edu
     
 ===============================================================
 
