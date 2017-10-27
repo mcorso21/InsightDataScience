@@ -18,7 +18,7 @@ HOW TO USE:
 
 DEBUG/TIME INFO:
 
-	If you want the program to print to the console the current line it's parsing and the time spent:
+	If you want the program to print to the console debug/time info:
 		(1) Open the source code (can be found: ./src/java/InsightDS.java)
 		(2) Set line 26 (boolean debug) to true;
 		(3) Rebuild using ./run.sh
