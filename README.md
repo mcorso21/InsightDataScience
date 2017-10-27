@@ -11,8 +11,15 @@ Author E-Mail: mc5262@nyu.edu
 
 ===============================================================
 
-HOW TO USE:
+BUILDING/RUNNING WITH RUN.SH:
 
+    sh ./run.sh
+ 
+    This rebuilds the .class (./src/class) and .jar (./src/) files and runs the jar with the following parameters:
+    	java -jar ./src/FindPoliDonors.jar ./input/itcont.txt ./output/medianvals_by_zip.txt ./output/medianvals_by_date.txt
+    
+MANUALLY RUNNING JAR FILE:
+	
     java -jar FindPoliDonors.jar [input file] [zip code output file] [date output file]
     IE: java -jar ./src/FindPoliDonors.jar ./input/itcont.txt ./output/medianvals_by_zip.txt ./output/medianvals_by_date.txt
 
