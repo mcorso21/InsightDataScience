@@ -32,9 +32,8 @@ RUNNING TESTS:
 DEBUG/TIME INFO:
 
 	To print to console debug/time info:
-		(1) Open the source code (can be found: ./src/java/InsightDS.java)
-		(2) Set line 26 (boolean debug) to true;
-		(3) Rebuild using ./run.sh
+		(1) Edit source code (./src/java/InsightDS.java) line 26 (boolean debug) to true;
+		(2) Rebuild using ./run.sh
 
 SIMPLE OVERVIEW:
 
