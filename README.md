@@ -1,4 +1,4 @@
-===============================================================
+======================================================================
 
     Description: Parses 'Contributions by Individuals' files found at: 
     	 http://classic.fec.gov/finance/disclosure/ftpdet.shtml
