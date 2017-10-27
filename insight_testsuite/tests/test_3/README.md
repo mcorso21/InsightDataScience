@@ -1,0 +1,1 @@
+First 50k lines from Contributions by Individuals 2013-2014 from http://classic.fec.gov/finance/disclosure/ftpdet.shtml
