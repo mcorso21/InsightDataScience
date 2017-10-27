@@ -23,6 +23,16 @@ MANUALLY RUNNING JAR FILE:
     java -jar FindPoliDonors.jar [input file] [zip code output file] [date output file]
     IE: java -jar ./src/FindPoliDonors.jar ./input/itcont.txt ./output/medianvals_by_zip.txt ./output/medianvals_by_date.txt
 
+RUNNING TESTS:
+
+   Three tests are included:
+       (1) Short test provided by Insight,
+       (2) Modified test 1 to test for record-skipping situations, and
+       (3) A longer test with 50,000 lines (Mostly for code efficiency testing)
+   
+   To run all tests:
+       sh ./insight_testsuite/run_tests.sh
+
 DEBUG/TIME INFO:
 
 	If you want to print to console debug/time info:
