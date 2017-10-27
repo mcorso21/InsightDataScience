@@ -1,6 +1,5 @@
 ===============================================================
 
-File: InsightDS.java
 Description: Parses 'Contributions by Individuals' files found: http://classic.fec.gov/finance/disclosure/ftpdet.shtml
 
 Created: October 26, 2017
