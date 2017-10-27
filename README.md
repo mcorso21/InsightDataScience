@@ -1,7 +1,7 @@
 ===============================================================
 
     Description: Parses 'Contributions by Individuals' files found at: 
-    	http://classic.fec.gov/finance/disclosure/ftpdet.shtml
+    	 http://classic.fec.gov/finance/disclosure/ftpdet.shtml
     Created: October 26, 2017
     Author Name :: E-Mail: Michael Corso :: mc5262@nyu.edu
     
@@ -12,7 +12,7 @@ BUILDING/RUNNING USING RUN.SH:
     sh ./run.sh
  
     Builds the .class (./src/class) and .jar (./src/) files and runs the jar with the following parameters:
-    	java -jar ./src/FindPoliDonors.jar ./input/itcont.txt ./output/medianvals_by_zip.txt ./output/medianvals_by_date.txt
+        java -jar ./src/FindPoliDonors.jar ./input/itcont.txt ./output/medianvals_by_zip.txt ./output/medianvals_by_date.txt
     
 MANUALLY RUNNING JAR:
 	
@@ -21,10 +21,10 @@ MANUALLY RUNNING JAR:
 
 RUNNING TESTS:
 
-   Three tests included:
-       (1) Short test provided by Insight,
-       (2) Modified test 1 to test for record-skipping situations, and
-       (3) A longer test with 50,000 lines (mostly for efficiency testing)
+    Three tests included:
+        (1) Short test provided by Insight,
+        (2) Modified test 1 to test for record-skipping situations, and
+        (3) A longer test with 50,000 lines (mostly for efficiency testing)
    
    To run all tests:
        sh ./insight_testsuite/run_tests.sh
@@ -42,6 +42,6 @@ SIMPLE OVERVIEW:
     (3) Record-data is stored in LinkedHashMaps to maintain order.
     (4) Zip code output is generated immediately but stored in an ArrayList until complete since this was faster than 
         performing File I/O on ArrayList dumps greater than size of 100. This efficiency was based on a file with 4.2
-	million lines, this may need to be revisited with significantly larger file sizes.
+	      million lines, this may need to be revisited with significantly larger file sizes.
     (5) After parsing the entire file, the date output data is generated, and the date and zip output data are written
         to their respective output files.
