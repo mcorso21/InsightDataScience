@@ -42,6 +42,6 @@ SIMPLE OVERVIEW:
     (3) Record-data is stored in LinkedHashMaps to maintain order.
     (4) Zip code output is generated immediately but stored in an ArrayList until complete since this was faster than 
         performing File I/O on ArrayList dumps greater than size of 100. This efficiency was based on a file with 4.2
-	million lines, this may need to be revisited with significantly larger file sizes.
+		million lines, this may need to be revisited with significantly larger file sizes.
     (5) After parsing the entire file, the date output data is generated, and the date and zip output data are written
         to their respective output files.
